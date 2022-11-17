@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla&display=swap');
+*{
+    font-family: 'Tiro Bangla', serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      outline: none;
+      border: none;
+      text-decoration: none;
+      text-transform: capitalize;
+      transition: all .2s linear;
+  }
+  
+
+.header {
+    max-width: 1200px;
+    display: flex;
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+.header .para {
+    width: 30%;
+    margin-right: 5%;
+}
+.header .para p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    line-height: 2rem;
+}
+.header .para span {
+    font-size: 60px;
+    line-height: 4.5rem;
+    font-weight: 500;
+}
+
+.header .right_part {
+    width: 100%;
+    display: inline-block;
+   
+}
+
+.right_part p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    line-height: 2rem;
+}
+
+.right_part .first_img img {
+    width: 100%;
+    height: 600px;
+}
+.right_part .first_img p {
+
+}
+.right_part .under_img_part {
+    width: 100%;
+    display: flex;
+}
+.under_img_part .left_bar {
+    width: 50%;
+    margin-right: 5%;
+}
+.under_img_part .left_bar .center_img img {
+    width: 100%;
+    height: 300px;
+}
+.under_img_part .left_bar .center_img p {
+    font-weight: 600;
+}
+
+.under_img_part .right_bar {
+    width: 50%;
+}
+.right_bar .extra {
+    background-color: rgb(247, 226, 226);
+    margin-top: 30px;
+}
+.right_bar .extra h2 {
+    background-color: rgb(252, 208, 208);
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.right_bar .extra p {
+    margin-left: 10px;
+}
+
+/*
+    Responsive
+*/
+
+
+
+
+
+
+
+
